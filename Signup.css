@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    /*box-size:border-box;*/
+}
+body {
+    background-image: url(https://b.zmtcdn.com/mx-onboarding-hero87f77501659a5656cad54d98e72bf0d81627911821.webp);
+}
+#container {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.tabs {
+    display: table-cell;
+    width: 30%;
+    background-color: black;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid #ffffff;
+    border-bottom: 0px;
+    position: relative;
+    font-size: 1.3em;
+    color: yellow;
+}
+.tabs:hover, p{
+    cursor: pointer;
+}
+
+#lt {
+    background-color: black;
+}
+#cont {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    border: 2px solid #ffffff;
+}
+
+input{
+    display: block;
+    width: 250px;
+    margin: 10px 13px;
+    padding: 10px;
+    font-size: 1.3em;
+    color: black;
+    outline: 2px solid #ffffff;
+}
+
+input[type="submit"] {
+    width: 272px;
+    color: black;
+}
+
+#clear {
+    clear: both;
+}
+
+.comm {
+    position: absolute;
+    visibility: hidden;
+}
+#login {
+    visibility: visible;
+}
+
+h3 {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px 15px;
+    font-size: 1.5em;
+    color: yellow;
+}
+
+#forgot h3 {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#forgot div {
+    margin-top: 30px;
+}
+p {
+    padding: 10px 15px;
+    font-size: 1.3em;
+    color: yellow;
+}
+/*#footer {
+    width: 300px;
+    margin: 10px auto;
+    text-align: center;
+    color: rgba(9, 118, 155, 0.91);
+
+}*/
